@@ -30,6 +30,21 @@
 
 }
 
+.common-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.common-description-one {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
 
 /* ------- common style section ended-------- */
 
@@ -85,7 +100,7 @@
 
 /* ------banner style start now--------- */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,11 +128,59 @@
     font-size: 18px;
     font-weight: 400;
     padding: 0 300px 0 0;
-    margin: 25px  0;
+    margin: 25px 0;
 }
 
-.banner-profile{
+.banner-profile {
     height: 678px;
 }
 
 /* ----- banner section style ended */
+
+/*  ------- main section about part style start now--------- */
+.about-section {
+    width: 78%;
+    height: 550px;
+    margin: 130px auto;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+}
+
+.about-info {
+    margin: auto;
+}
+
+.about-title {
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.about-description {
+    padding: 0 250px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.contact-info p {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-info h4 {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+/* ------ main section about part style ended  -----*/
+
+/* ---------main section  What I do style start here---------*/
