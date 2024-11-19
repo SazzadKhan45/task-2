@@ -184,3 +184,49 @@
 /* ------ main section about part style ended  -----*/
 
 /* ---------main section  What I do style start here---------*/
+.What-I-do {
+    width: 78%;
+    height: 550px;
+    margin: 130px auto;
+}
+
+.what-do-description {
+    padding: 30px 200px 50px 200px;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+}
+
+.card-1, .card-2, .card-3, .card-4  {
+    height: 377px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px 33px;
+}
+
+.card-image img {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.card-descraption {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+/* --------main section  What I do style ended------- */
+
+/* --------A summary of My Resume style start here---------- */
