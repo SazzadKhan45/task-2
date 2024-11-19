@@ -184,7 +184,7 @@
 /* ------ main section about part style ended  -----*/
 
 /* ---------main section  What I do style start here---------*/
-.What-I-do {
+.What-I-do, .Resume-section {
     width: 78%;
     height: 550px;
     margin: 130px auto;
@@ -230,3 +230,10 @@
 /* --------main section  What I do style ended------- */
 
 /* --------A summary of My Resume style start here---------- */
+.resume-title{
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+.qualification-title{
+
+}
