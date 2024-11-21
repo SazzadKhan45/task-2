@@ -184,7 +184,8 @@
 /* ------ main section about part style ended  -----*/
 
 /* ---------main section  What I do style start here---------*/
-.What-I-do, .Resume-section {
+.What-I-do,
+.Resume-section {
     width: 78%;
     height: 550px;
     margin: 130px auto;
@@ -193,12 +194,16 @@
 .what-do-description {
     padding: 30px 200px 50px 200px;
 }
-.cards{
+
+.cards {
     display: flex;
     gap: 50px;
 }
 
-.card-1, .card-2, .card-3, .card-4  {
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
     height: 377px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -230,10 +235,63 @@
 /* --------main section  What I do style ended------- */
 
 /* --------A summary of My Resume style start here---------- */
-.resume-title{
+.Resume-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-title {
     margin-top: 150px;
     margin-bottom: 110px;
 }
-.qualification-title{
 
+.Education-post {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+}
+
+.qualification-title h4 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+
+.Education-info {
+    border-bottom: 2px solid rgb(209, 209, 209);
+    margin-bottom: 30px;
+}
+
+.Education-degree {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.passing-year {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 10px 0 20px 0;
+}
+
+.education-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.edu-btn {
+    width: 200px;
+    height: 64px;
 }
